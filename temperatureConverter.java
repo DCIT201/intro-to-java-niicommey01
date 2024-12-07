@@ -9,8 +9,8 @@ public class temperatureConverter {
 
         // Takes user's input on what kind of conversion they'll be doing and stores it
         System.out.println("What would you like to do? ");
-        System.out.println("1 - To change from Celsius to Fahrenheit");
-        System.out.println("2 - To change from Fahrenheit to Celsius ");
+        System.out.println("Input, 1 - To change from Celsius to Fahrenheit");
+        System.out.println("Input, 2 - To change from Fahrenheit to Celsius ");
         int conversionType = input.nextInt();
 
         // Takes the temperature the user want's to convert
